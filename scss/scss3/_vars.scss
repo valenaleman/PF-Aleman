@@ -1,0 +1,378 @@
+//url
+$body-bg: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
+
+// fonts
+$mainFont: 'Roboto Mono', monospace;
+
+// colors
+$mainColor: blueviolet;
+$secondaryColor: violet;
+$tertiaryColor: coral;
+$fourColor: rebeccapurple;
+$fiveColor: black;
+$sixColor: cornflowerblue;
+$sevenColor: grey;
+$eightColor: rgba(255, 0, 0, 0);
+$nineColor: gray;
+
+// font weight
+$fontLight: 100;
+$fontBold: 700;
+$fontRegular: 500;
+$fontMedium: 300;
+$fontHalfMedium: 400;
+$fontAlmostLight: 200;
+$fontMini: 14px;
+$fontMinitwo: 15px;
+
+// position
+$display-flex: flex;
+$display-block: block;
+$display-grid: grid;
+$text-align-justify: justify;
+$row: row;
+$wrap: wrap;
+$center: center;
+$align-items-flex-start: flex-start;
+$middle: middle;
+$body-ob-fit: cover;
+$body-ob-pos: bottom;
+$fixed: fixed;
+$px: 50px;
+$twopx: 10px;
+$grid-template-rows: 1px;
+$auto: auto;
+$left: left;
+$miniMargin: 0 auto;
+$column: column;
+$mini-line-height: 1.6;
+$hidden-overflow-x: hidden;
+$mini-padding-left: 25px;
+$body-postwo: contain;
+$margin: 0 auto;
+$width-height: 150%;
+$margin-left-right: calc((100% - 550px) / 2);
+$twocenter: center center;
+
+// size 
+$largePadding: 10px 0 10px 5px;
+$largeMargin: 30px 5px 5px 15px;
+$body-height: 300px;
+$body-size: cover;
+$threepx: 400px;
+$largeWidth: 500px;
+$mediumWidth: 600px;
+$indMargin: auto;
+$both: both;
+$largeWidth: 700px;
+$littleMargin: 0;
+$border-box: border-box;
+$fourpx: 20px;
+$body-size: cover;
+$largeHeight: 100px;
+$miniHeight: 80px;
+$smallWidth: 200px;
+$miniHeighttwo: 55px;
+$mediumMargin: 10;
+$width: 100%;
+$background-size: 1000px;
+$widthLarge: 116%;
+$heightMedium: 50%;
+
+// custom
+$solid: solid;
+$body-repeat: no-repeat;
+$list-style: none;
+$border: 1px solid transparent;
+
+h1 {
+    font-family: $mainFont;
+    font-weight: $fontBold;
+    color: $mainColor;
+}
+
+h5 {
+    font-family: $mainFont;
+    font-weight: $fontHalfMedium;
+}
+
+h6 {
+    font-family: $mainFont;
+    font-weight: $fontLight;
+}
+
+.frases {
+    font-family: $mainFont;
+    font-weight: $fontHalfMedium;
+}
+
+.números{
+    font-family: $mainFont;
+    font-weight: $fontHalfMedium;
+    color: $secondaryColor;
+}
+
+.frases2 {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+}
+
+.números2 {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+    color: $tertiaryColor;
+}
+
+.redes {
+    color: $fourColor;
+}
+
+.acount {
+    color: $fiveColor;
+ }
+
+.box-model {
+    margin: $largeMargin;
+    padding: $largePadding;
+    border: $twopx $solid $eightColor;
+    text-align: $text-align-justify;
+}
+
+.alineación {
+    display: $display-flex;
+    flex-direction: $row;
+    flex-flow: $row;
+    flex-wrap: $wrap;
+    align-items: $center;
+    justify-content: $center;
+}
+
+    .alineación figcaption {
+        color: $sixColor;
+    }
+
+.iyt {
+    vertical-align: $middle;
+}
+
+footer {
+display: $display-block;
+justify-content: $center;
+}
+
+body {
+    background-image: $body-bg;
+    width: $width;
+    height: $body-height;
+    object-fit: $body-ob-fit;
+    object-position: $body-ob-pos;
+    background-repeat: $body-repeat;
+    background-attachment: $fixed;
+    background-size: $body-size;
+}
+
+
+#header {
+    margin: $indMargin;
+    width: $largeWidth;
+    font-family: $mainFont; 
+    font-weight: $fontLight;
+}
+
+ul {
+    list-style: $list-style;
+}
+
+.grid-container {
+    display: $display-grid;
+    grid-template-columns: $px; /* 2 columnas */
+    grid-template-rows: $px; /* 2 filas */
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
+    /* Centrar items */
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
+}
+
+.grid-container2 {
+    display: $display-grid;
+    grid-template-columns: $threepx; /* 1 columna */
+    grid-template-rows: $grid-template-rows; /*1 fila */
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
+    /* Centrar items */
+    margin-left: $auto;
+    margin-right: $auto;
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
+}
+
+.caja-1 {
+    background-color: $sevenColor;
+    max-width: $largeWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $twopx;
+    box-sizing: $border-box;
+    margin-top: $fourpx;
+  }
+
+  .caja-2 {
+    clear: $both;
+    background-color: $sevenColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $twopx;
+    box-sizing: $border-box;
+    margin-top: $fourpx;
+  }
+
+  .caja-3 {
+    clear: $both;
+    background-color: $sevenColor;
+    max-width: $largeWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $twopx;
+    box-sizing: $border-box;
+    margin-top: $fourpx;
+  }
+
+  .caja-4 {
+    clear: $both;
+    background-color: $sevenColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $twopx;
+    box-sizing: $border-box;
+    margin-top: $fourpx;
+  }
+
+  .caja-5 {
+    clear: $both;
+    background-color: $sevenColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $twopx;
+    box-sizing: $border-box;
+    margin-top: $fourpx;
+  }
+
+  .gray-box {
+    background-color: $nineColor;
+    padding: $fourpx;
+    margin: $margin;
+    width: $width;
+  }
+
+/* Estilos para dispositivos móviles */
+
+@media screen and (max-width: 400px) {
+    body {
+        background-image: $body-bg;
+        background-size: $body-postwo;
+        background-repeat: $body-repeat;
+        background-attachment: $fixed;
+        background-position: $twocenter;
+    }
+
+    .containter {
+        display: $display-block;
+        display: $display-flex;
+        justify-content: $center;
+        align-items: $center;
+        width: $threepx;
+        height: $largeHeight;
+        margin: $miniMargin;        
+        flex-direction: $column;
+        align-items: $align-items-flex-start;
+    }
+
+    .imagenfrases {
+        justify-content: $center;
+        text-align: $center;
+        background-position: $center;
+        background-attachment: $fixed;
+        width: $smallWidth;
+        height: $miniHeight;
+        margin: $miniMargin;
+    }
+
+    .titulo {
+        justify-content: $center;
+        text-align: $center;
+        font-weight: $fontAlmostLight;
+    }
+
+    .frases {
+        font-size: $fontMini;
+        font-weight: $fontLight;
+    }
+
+    .frases2 {
+        display: $display-block;
+        line-height: $mini-line-height;
+        overflow-x: $hidden-overflow-x;
+        width: $threepx;
+        height: $miniHeighttwo;
+        margin: $mediumMargin;
+        margin-top: $twopx;
+        padding-left: $mini-padding-left;
+        padding: $twopx;
+        font-size: $fontMini;
+        font-weight: $fontLight;
+    }
+    
+    .derecha {
+        height: $largeHeight;
+        width: $smallWidth;
+    }
+
+    .containerblogs {
+        max-width: $width-height;
+        max-height: $width-height;
+        border: $border;
+        margin-left: $margin-left-right;
+        margin-right: $margin-left-right;
+        background-size: $background-size;
+        width: $widthLarge;
+        height: $heightMedium;
+      }
+}
+
+/* Estilos para dispositivos desktop */
+
+@media screen and (max-width: 1500px) {
+    body {
+        background-image: $body-bg;
+        background-position: $center;
+        background-image: $fixed;
+        background-repeat: $body-repeat;
+        background-position: $body-postwo;
+    }
+
+    .frases {
+        font-size: $fontMinitwo;
+    }
+
+    .frases2 {
+         display: $display-block;
+         line-height: $mini-line-height;
+         overflow-x: $hidden-overflow-x;
+         margin-top: $twopx;
+         padding-left: $mini-padding-left;
+         padding: $twopx;
+         font-size: $fontMinitwo;
+    }
+}
