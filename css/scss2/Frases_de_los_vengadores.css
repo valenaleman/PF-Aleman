@@ -250,17 +250,10 @@ ul {
   .derecha {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    max-width: 20px;
+    margin: auto;
+    max-width: 200px;
     width: 100%;
-    height: auto;
-  }
-  .derecha {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 20px;
+    height: 100%;
   }
   .frases {
     display: inline-block;

@@ -340,22 +340,14 @@ ul {
         font-weight: $fontLight;
     }
 
-    .derecha {
+      .derecha {
         display: $display-flex;
         justify-content: $center;
-        align-items: $center;
-        height: $vhHeight;
-        max-width: $threepx;
+        margin: $auto;
+        max-width: $smallWidth;
         width: $width;
-        height: auto;
-      }
-
-    .derecha{
-        display: $display-flex;
-        justify-content: $center;
-        margin: $margin;
-        max-width: $threepx;
-      }
+        height: $width;
+      } 
 
     .frases {
         display: $display-inline-bock;
