@@ -82,6 +82,7 @@ $background-size: 1000px;
 $widthLarge: 116%;
 $heightMedium: 50%;
 $twoWidth: 350px;
+$vhHeight: 100vh;
 
 // customs
 $solid: solid;
@@ -338,6 +339,16 @@ ul {
         text-align: $center;
         font-weight: $fontLight;
     }
+
+    .derecha {
+        display: $display-flex;
+        justify-content: $center;
+        align-items: $center;
+        height: $vhHeight;
+        max-width: $threepx;
+        width: $width;
+        height: auto;
+      }
 
     .derecha{
         display: $display-flex;
