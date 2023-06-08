@@ -38,7 +38,6 @@ $auto: auto;
 $left: left;
 $miniMargin: 0 auto;
 $mini-line-height: 1.6;
-$hidden-overflow-x: hidden;
 $column: column;
 $wrap: wrap;
 $row: 4;
@@ -353,7 +352,6 @@ ul {
         display: $display-inline-bock;
         line-height: $mini-line-height;
         max-width: $width;
-        overflow-x: $hidden-overflow-x;
         object-fit: $cover;
         width: $twoWidth;
         height: $Heighttwo;
