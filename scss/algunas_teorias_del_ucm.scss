@@ -7,9 +7,7 @@ $mainFont: 'Roboto Mono', monospace;
 // colors
 $mainColor: blueviolet;
 $secondaryColor: violet;
-$tertiaryColor: grey;             
 $fourColor: cornflowerblue;
-$fiveColor: gray;
 
 // font weight
 $fontLight: 100;
@@ -19,29 +17,20 @@ $fontHalfMedium: 400;
 $fontAlmostLight: 200;
 
 // size
-$both: both;
 $mediumWidth: 600px;
-$littleMargin: 0;
-$mediumPadding: 10px;
-$border-box: border-box;
-$px: 20px;
 $body-width: 100%;
 $body-height: 300px;
 $largeWidth: 500px;
-$littleMargin: 0;
-$width: 100%;
 $background-size: 1000px;
 $widthLarge: 116%;
 $heightMedium: 50%;
 
 // position
-$left: left;
 $cover: cover;
 $body-poss:contain;
 $body-ob-pos: bottom;
 $body-attachment: fixed;
 $center: center;
-$margin: 0 auto;
 $width-height: 150%;
 $margin-left-right: calc((100% - 550px) / 2);
 $twocenter: center center;
@@ -51,7 +40,7 @@ $flex: flex;
 $body-repeat: no-repeat;
 $border: 1px solid transparent;
 
-body {
+.teoriasbody {
     background-image: $body-bg;
     width: $body-width;
     height: $body-height;
@@ -87,72 +76,12 @@ h2 {
   justify-content: $center;
 }
 
-.caja-1 {
-    background-color: $tertiaryColor;
-    max-width: $largeWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $mediumPadding;
-    box-sizing: $border-box;
-    margin-top: $px;
-  }
-
-  .caja-2 {
-    clear: $both;
-    background-color: $tertiaryColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $mediumPadding;
-    box-sizing: $border-box;
-    margin-top: $px;
-  }
-
-  .caja-3 {
-    clear: $both;
-    background-color: $tertiaryColor;
-    max-width: $largeWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $mediumPadding;
-    box-sizing: $border-box;
-    margin-top: $px;
-  }
-
-  .caja-4 {
-    clear: $both;
-    background-color: $tertiaryColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $mediumPadding;
-    box-sizing: $border-box;
-    margin-top: $px;
-  }
-
-  .caja-5 {
-    clear: $both;
-    background-color: $tertiaryColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $mediumPadding;
-    box-sizing: $border-box;
-    margin-top: $px;
-  }
-
-  .gray-box {
-    background-color: $fiveColor;
-    padding: $px;
-    margin: $margin;
-    width: $width;
-  }
 
   /* Estilos para dispositivos móviles */
 
 @media screen and (max-width: 400px) {
 
-  body {
+  .teoriasbody {
       background-image: $body-bg;
       background-size: $body-poss;
       background-repeat: $body-repeat;
@@ -175,7 +104,7 @@ h2 {
 /* Estilos para dispositivos desktop */
 
 @media screen and (max-width: 1500px) {
-  body {
+  .teoriasbody {
       background-image: $body-bg;
       background-size: $cover;
       justify-content: $center;

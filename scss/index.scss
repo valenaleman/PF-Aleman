@@ -57,7 +57,7 @@ $miniBorder: 10px;
 $root-bezier: cubic-bezier(0.42,0,0.58,1);
 $root-trans-dur: 0.3s;
 
-body {
+.bodyindex {
     background-image: $body-bg;
     background-position: $center;
     background-image: $body-image;
@@ -73,21 +73,16 @@ body {
     text-align: $text-align-justify;
 }
 
-h1 {
+.titulomenu{
     font-family: $mainFont;
     font-weight: $fontBold;
     color: $mainColor;
 }
 
-h2 {
+.linksmenu {
     font-family: $mainFont;
     font-weight: $fontRegular;
     color: $secondaryColor;
-}
-
-h6 {
-    font-family: $mainFont;
-    font-weight: $fontLight;
 }
 
 .redes {
@@ -123,7 +118,7 @@ footer {
  /* Estilos para dispositivos móviles */
 
  @media screen and (max-width: 400px) {
-    body {
+    .bodyindex {
     background-image: $body-bg;
     background-size: $twobody-pos;
     background-position: $center $threebody-pos $px;
@@ -139,7 +134,7 @@ footer {
 /* Estilos para dispositivos desktop */
 
 @media screen and (max-width: 1500px) {
-    body {
+    .bodyindex {
         background-image: $body-bg;
         background-position: $center $threebody-pos $px;
         background-image: $body-image;

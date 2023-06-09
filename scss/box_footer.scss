@@ -1,0 +1,81 @@
+// color
+$secondaryColor: gray;
+$tertiaryColor: grey;             
+
+
+// position
+$px: 20px;
+$margin: 0 auto;
+$width: 100%;
+$left: left;
+
+// size
+$both: both;
+$largeWidth: 700px;
+$littleMargin: 0;
+$mediumPadding: 10px;
+$border-box: border-box;
+
+
+
+.caja-1 {
+    background-color: $tertiaryColor;
+    max-width: $largeWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $border-box;
+    margin-top: $px;
+  }
+
+  .caja-2 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $border-box;
+    margin-top: $px;
+  }
+
+  .caja-3 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $largeWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $border-box;
+    margin-top: $px;
+  }
+
+  .caja-4 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $border-box;
+    margin-top: $px;
+  }
+
+  .caja-5 {
+    clear: $both;
+    background-color: $tertiaryColor;
+    max-width: $mediumWidth;
+    margin: $littleMargin;
+    float: $left;
+    padding: $mediumPadding;
+    box-sizing: $border-box;
+    margin-top: $px;
+  }
+
+
+.gray-box {
+    background-color: $secondaryColor;
+    padding: $px;
+    margin: $margin;
+    width: $width;
+  }

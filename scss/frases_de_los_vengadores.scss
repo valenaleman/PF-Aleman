@@ -1,94 +1,111 @@
 // url
 $body-bg: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
 
-// fonts
-$mainFont: 'Roboto Mono', monospace;
-
 // colors
 $mainColor: blueviolet;
-$secondaryColor: violet;
-$tertiaryColor: coral;
-$fourColor: rebeccapurple;
-$fiveColor: black;
-$sixColor: cornflowerblue;
-$sevenColor: grey;
-$eightColor: rgba(255, 0, 0, 0);
-$nineColor: gray;
+$secondaryColor: blue;
+$tertiaryColor: violet;
+$fourColor: coral;
+$fiveColor: rebeccapurple;
+$sixColor: black;
+$eightColor: cornflowerblue;
+$nineColor: white;
+$tenColor: rgba(255, 0, 0, 0);
+$elevenColor: grey;
+$twelveColor: gray;
+
+// fonts
+$mainFont: 'Roboto Mono', monospace;
 
 // font weight
 $fontLight: 100;
 $fontBold: 700;
+$fontRegular: 500;
 $fontMedium: 300;
 $fontHalfMedium: 400;
 $fontAlmostLight: 200;
 $fontMini: 14px;
 $fontMinitwo: 15px;
 
-// position
+// positions
 $display-flex: flex;
 $display-block: block;
 $display-grid: grid;
-$text-align-justify: justify;
+$display-inline-bock: inline-block;
 $row: row;
-$wrap: wrap;
-$align-items-flex-start: flex-start;
-$middle: middle;
-$body-ob-fit: cover;
-$body-ob-pos: bottom;
-$body-attachment: fixed;
-$px: 50px;
-$twopx: 10px;
 $center: center;
-$grid-template-rows: 1px;
+$auto: auto;
 $left: left;
-$zeroauto: 0 auto;
+$miniMargin: 0 auto;
+$mini-line-height: 1.6;
 $column: column;
+$wrap: wrap;
+$row: 4;
+$text-align-justify: justify;
+$px: 50px;
+$grid-template-rows: 1px;
+$body-pos: bottom;
+$fixed: fixed;
+$twobody-poss: contain;
+$middle: middle;
+$margin: 0 auto;
 $width-height: 150%;
 $margin-left-right: calc((100% - 550px) / 2);
 $twocenter: center center;
-$body-poss: contain;
 
-// size 
+// size
 $largePadding: 10px 0 10px 5px;
 $largeMargin: 30px 5px 5px 15px;
-$body-width: 100%;
-$body-height: 300px;
-$body-size: cover;
-$threepx: 400px;
-$largeWidth: 500px;
-$mediumWidth: 600px;
-$indMargin: auto;
-$both: both;
 $largeWidth: 700px;
+$threepx: 400px;
+$mediumWidth: 600px;
+$smallWidth: 200px;
+$smallHeight: 200px;
+$miniHeight: 100px;
+$Heighttwo: 100px;
 $littleMargin: 0;
+$twopx: 10px;
 $box-sizing-border-box: border-box;
-$fourpx: 20px;
-$largeHeight: 100px;
+$both: both;
+$threepx: 20px;
+$miniMargin: 10;
+$mini-padding-left: 25px;
+$text-right: right;
+$margin-bottom: 0;
+$margin-right: 5px;
+$margin-bottom-container: 20px;
+$body-height: 300px;
+$cover: cover;
 $width: 100%;
 $background-size: 1000px;
 $widthLarge: 116%;
 $heightMedium: 50%;
+$twoWidth: 350px;
+$vhHeight: 100vh;
 
-// custom
+// customs
 $solid: solid;
 $body-repeat: no-repeat;
 $list-style: none;
 $border: 1px solid transparent;
 
-h1 {
-    font-family: $mainFont;
-    font-weight: $fontBold;
+body {
+    background-image: $body-bg;
+    width: $width;
+    height: $body-height;
+    object-fit: $cover;
+    object-position: $body-pos;
+    background-repeat: $body-repeat;
+    background-attachment: $fixed;
+    background-size: $cover;
+}
+
+.titulofrases {
     color: $mainColor;
 }
 
-h5 {
-    font-family: $mainFont;
-    font-weight: $fontMedium;
-}
-
-h6 {
-    font-family: $mainFont;
-    font-weight: $fontLight;
+.subtitulofrases {
+    color: $secondaryColor;
 }
 
 .frases {
@@ -99,12 +116,12 @@ h6 {
 .números{
     font-family: $mainFont;
     font-weight: $fontHalfMedium;
-    color: $secondaryColor;
+    color: $tertiaryColor;
 }
 
-.peliculas {
+.peliculas1 {
     font-family: $mainFont;
-    font-weight: $fontMedium;
+    font-weight: $fontHalfMedium;
 }
 
 .frases2 {
@@ -112,43 +129,28 @@ h6 {
     font-weight: $fontAlmostLight;
 }
 
-.puntos {
+.números2 {
     font-family: $mainFont;
     font-weight: $fontAlmostLight;
-    color: $tertiaryColor;
-}
-
-.tx-1 {
-    font-family: $mainFont;
-    font-weight: $fontAlmostLight;
-}
-
-.tx-2 {
-    font-family: $mainFont;
-    font-weight: $fontAlmostLight;
-}
-
-.instagram {
-    font-family: $mainFont;
-    font-weight: $fontAlmostLight;
-}
-
-.iyt {
-    vertical-align: $middle;
-}
-
-.redes {
     color: $fourColor;
 }
 
-.acount {
+.redes {
     color: $fiveColor;
+}
+
+.acount {
+    color: $sixColor;
  }
+
+ .centro{
+    vertical-align: $middle;
+}
 
 .box-model {
     margin: $largeMargin;
     padding: $largePadding;
-    border: $twopx $solid $eightColor;
+    border: $twopx $solid $tenColor;
     text-align: $text-align-justify;
 }
 
@@ -162,24 +164,22 @@ h6 {
 }
 
     .alineación figcaption {
-        color: $sixColor;
+        color: $eightColor;
     }
 
-body {
-    background-image: $body-bg;
-    width: $body-width;
-    height: $body-height;
-    object-fit: $body-ob-fit;
-    object-position: $body-ob-pos;
-    background-repeat: $body-repeat;
-    background-attachment: $body-attachment;
-    background-size: $body-size;
+.iyt {
+    vertical-align: $middle;
+}
+
+footer {
+display: $display-block;
+justify-content: $center;
 }
 
 #header {
-    margin: $indMargin;
-    width: $largeWidth;
-    font-family: $mainFont; 
+    margin: auto;
+    width: $fontRegular;
+    font-family: $mainFont;
     font-weight: $fontLight;
 }
 
@@ -209,8 +209,8 @@ ul {
     grid-column-gap: $twopx;
     grid-row-gap: $twopx;
     /* Centrar items */
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: $auto;
+    margin-right: $auto;
     justify-items: $center;
     align-items: $center;
     justify-content: $center;
@@ -219,89 +219,91 @@ ul {
     row-gap: $twopx;
 }
 
+.union {
+    display: $display-flex;
+    justify-content: $left;
+}
+
 .caja-1 {
-    background-color: $sevenColor;
+    background-color: $elevenColor;
     max-width: $largeWidth;
     margin: $littleMargin;
     float: $left;
     padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $fourpx;
+    margin-top: $threepx;
   }
 
   .caja-2 {
     clear: $both;
-    background-color: $sevenColor;
+    background-color: $elevenColor;
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
     padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $fourpx;
+    margin-top: $threepx;
   }
 
   .caja-3 {
     clear: $both;
-    background-color: $sevenColor;
+    background-color: $elevenColor;
     max-width: $largeWidth;
     margin: $littleMargin;
     float: $left;
     padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $fourpx;
+    margin-top: $threepx;
   }
 
   .caja-4 {
     clear: $both;
-    background-color: $sevenColor;
+    background-color: $elevenColor;
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
     padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $fourpx;
+    margin-top: $threepx;
   }
 
   .caja-5 {
     clear: $both;
-    background-color: $sevenColor;
+    background-color: $elevenColor;
     max-width: $mediumWidth;
     margin: $littleMargin;
     float: $left;
     padding: $twopx;
     box-sizing: $box-sizing-border-box;
-    margin-top: $fourpx;
+    margin-top: $threepx
   }
 
   .gray-box {
-    background-color: $nineColor;
-    padding: $fourpx;
-    margin: $zeroauto;
+    background-color: $twelveColor;
+    padding: $threepx;
+    margin: $margin;
     width: $width;
   }
 
 /* Estilos para dispositivos móviles */
 
 @media screen and (max-width: 400px) {
-
     body {
         background-image: $body-bg;
-        background-size: $body-poss;
+        background-size: $twobody-poss;
         background-repeat: $body-repeat;
+        background-attachment: $fixed;
         background-position: $twocenter;
-        background-attachment: $body-attachment;
     }
 
-    .containter {
-        display: $display-block;
-        display: $display-flex;
+    .imagenfrases {
         justify-content: $center;
-        align-items: $center;
-        width: $threepx;
-        height: $largeHeight;
-        margin: $zeroauto;
-        flex-direction: $column;
-        align-items: $align-items-flex-start;
+        text-align: $center;
+        background-position: $center;
+        background-attachment: $fixed;
+        width: $smallWidth;
+        height: $miniHeight;
+        margin: $miniMargin;
     }
 
     .titulo {
@@ -310,24 +312,66 @@ ul {
         font-weight: $fontAlmostLight;
     }
 
+    .subtitulo {
+        justify-content: $center;
+        text-align: $center;
+        font-weight: $fontLight;
+    }
+
+      .derecha {
+        display: $display-flex;
+        justify-content: $center;
+        margin: $auto;
+        max-width: $smallWidth;
+        width: $width;
+        height: $width;
+      } 
+
+    .frases {
+        display: $display-inline-bock;
+        line-height: $mini-line-height;
+        max-width: $width;
+        object-fit: $cover;
+        width: $twoWidth;
+        height: $Heighttwo;
+        margin: $miniMargin;
+        margin-top: $twopx;
+        padding-left: $mini-padding-left;
+        font-size: $fontMini;
+        padding: $twopx;
+        font-weight: $fontLight;
+    }
+
     .union {
         flex-direction: $column;
         flex-wrap: $wrap;
     }
-    
-    .frases {
-        font-size: $fontMini;
-        font-weight: $fontLight;
+
+    .union > h3 {
+        width: $width;
+      }
+      .contenedorfrases {
+        width: $width;
+      }
+      .contenedorfrases .frasescontainer {
+        display: $display-flex;
+        flex-direction: $column;
+        align-items: $center;
+      }
+      .contenedorfrases .frasescontainer h3 {
+        text-align: $text-right;
+        margin-bottom: $margin-bottom;
+      }
+      .contenedorfrases .frasescontainer .números {
+        margin-right: $margin-right;
+      }
+
+    .contenedorfrases {
+        margin-bottom: $margin-bottom-container;
     }
 
-    .peliculas{
-        font-size: $fontMini;
-        font-weight: $fontLight;
-    }
-
-    .frases2 {
-        font-size: $fontMini;
-        font-weight: $fontLight;
+    .nota {
+        margin: $littleMargin;
     }
 
     .containerblogs {
@@ -340,6 +384,10 @@ ul {
         width: $widthLarge;
         height: $heightMedium;
       }
+
+    .iyt {
+        grid-row: $row;
+    }
 }
 
 /* Estilos para dispositivos desktop */
@@ -347,35 +395,33 @@ ul {
 @media screen and (max-width: 1500px) {
     body {
         background-image: $body-bg;
-        background-size: $body-size;
-        justify-content: $center;
+        background-position: $center;
+        background-image: $fixed;
+        background-repeat: $body-repeat;
+        background-position: $twobody-poss;
     }
 
-    .frases {
-        font-weight: $fontLight;
-        font-size: $fontMinitwo;
-    }
-
-    .frases2 {
-        font-weight: $fontLight;
-        float: $left;
-        clear: $left;
-        font-size: $fontMinitwo;
-    }
-    .peliculas {
-        font-weight: $fontLight;
-        float: $left;
-        clear: $left;
-        font-size: $fontMinitwo;
+    .union {
+        display: $display-flex;
+        justify-content: $left;
     }
 
     .contenedorfrases {
         display: $display-flex;
         flex-direction: $column;
     }
+    
+    .frases {
+        float: $left;
+        clear: $left;
+        font-size: $fontMinitwo;
+    }
 
-    .union {
-        display: $display-flex;
-        justify-content: $left;
+    .peliculas {
+        font-size: $fontMinitwo;
+    }
+
+    .frases2 {
+        font-size: $fontMinitwo;
     }
 }

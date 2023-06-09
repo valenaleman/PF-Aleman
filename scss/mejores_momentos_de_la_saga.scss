@@ -215,71 +215,10 @@ ul {
     row-gap: $twopx;
 }
 
-.caja-1 {
-    background-color: $sevenColor;
-    max-width: $largeWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $border-box;
-    margin-top: $fourpx;
-  }
-
-  .caja-2 {
-    clear: $both;
-    background-color: $sevenColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $border-box;
-    margin-top: $fourpx;
-  }
-
-  .caja-3 {
-    clear: $both;
-    background-color: $sevenColor;
-    max-width: $largeWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $border-box;
-    margin-top: $fourpx;
-  }
-
-  .caja-4 {
-    clear: $both;
-    background-color: $sevenColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $border-box;
-    margin-top: $fourpx;
-  }
-
-  .caja-5 {
-    clear: $both;
-    background-color: $sevenColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $border-box;
-    margin-top: $fourpx;
-  }
-
-  .gray-box {
-    background-color: $nineColor;
-    padding: $fourpx;
-    margin: $margin;
-    width: $width;
-  }
-
 /* Estilos para dispositivos móviles */
 
 @media screen and (max-width: 400px) {
-    body {
+    .imagemomentos {
         background-image: $body-bg;
         background-size: $body-postwo;
         background-repeat: $body-repeat;
@@ -354,7 +293,7 @@ ul {
 /* Estilos para dispositivos desktop */
 
 @media screen and (max-width: 1500px) {
-    body {
+    .imagemomentos {
         background-image: $body-bg;
         background-position: $center;
         background-image: $fixed;

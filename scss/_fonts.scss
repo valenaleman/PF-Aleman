@@ -1,0 +1,33 @@
+// fonts
+$mainFont: 'Roboto Mono', monospace;
+
+// font weight
+$fontLight: 100;
+$fontBold: 700;
+$fontRegular: 500;
+$fontMedium: 300;
+
+h1 {
+    font-family: $mainFont;
+    font-weight: $fontBold;
+}
+
+h2 {
+    font-family: $mainFont;
+    font-weight: $fontRegular;
+}
+
+h3 {
+    font-family: $mainFont;
+    font-weight: $fontLight;
+}
+
+h5 {
+    font-family: $mainFont;
+    font-weight: $fontMedium;
+}
+
+h6 {
+    font-family: $mainFont;
+    font-weight: $fontLight;
+}

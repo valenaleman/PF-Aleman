@@ -1,0 +1,308 @@
+// url
+$body-bg: url(https://i.pinimg.com/564x/e3/de/c5/e3dec5beba4a4ed6764aa0905b94cd31.jpg);
+
+// fonts
+$mainFont: 'Roboto Mono', monospace;
+
+// colors
+$mainColor: blueviolet;
+$secondaryColor: violet;
+$tertiaryColor: coral;
+$fourColor: rebeccapurple;
+$fiveColor: black;
+$sixColor: cornflowerblue;
+$sevenColor: grey;
+$eightColor: rgba(255, 0, 0, 0);
+$nineColor: gray;
+
+// font weight
+$fontLight: 100;
+$fontBold: 700;
+$fontMedium: 300;
+$fontHalfMedium: 400;
+$fontAlmostLight: 200;
+$fontMini: 14px;
+$fontMinitwo: 15px;
+
+// position
+$display-flex: flex;
+$display-block: block;
+$display-grid: grid;
+$text-align-justify: justify;
+$row: row;
+$wrap: wrap;
+$align-items-flex-start: flex-start;
+$middle: middle;
+$body-ob-fit: cover;
+$body-ob-pos: bottom;
+$body-attachment: fixed;
+$px: 50px;
+$twopx: 10px;
+$center: center;
+$grid-template-rows: 1px;
+$left: left;
+$zeroauto: 0 auto;
+$column: column;
+$width-height: 150%;
+$margin-left-right: calc((100% - 550px) / 2);
+$twocenter: center center;
+$body-poss: contain;
+
+// size 
+$largePadding: 10px 0 10px 5px;
+$largeMargin: 30px 5px 5px 15px;
+$body-width: 100%;
+$body-height: 300px;
+$body-size: cover;
+$threepx: 400px;
+$largeWidth: 500px;
+$mediumWidth: 600px;
+$indMargin: auto;
+$both: both;
+$largeWidth: 700px;
+$littleMargin: 0;
+$box-sizing-border-box: border-box;
+$fourpx: 20px;
+$largeHeight: 100px;
+$width: 100%;
+$background-size: 1000px;
+$widthLarge: 116%;
+$heightMedium: 50%;
+
+// custom
+$solid: solid;
+$body-repeat: no-repeat;
+$list-style: none;
+$border: 1px solid transparent;
+
+.titulo {
+    color: $mainColor;
+}
+
+.ordenfrases {
+    font-family: $mainFont;
+    font-weight: $fontHalfMedium;
+}
+
+.números0{
+    font-family: $mainFont;
+    font-weight: $fontHalfMedium;
+    color: $secondaryColor;
+}
+
+.peliculas {
+    font-family: $mainFont;
+    font-weight: $fontMedium;
+}
+
+.frases1 {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+}
+
+.puntos {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+    color: $tertiaryColor;
+}
+
+.tx-1 {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+}
+
+.tx-2 {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+}
+
+.instagram {
+    font-family: $mainFont;
+    font-weight: $fontAlmostLight;
+}
+
+.iyt {
+    vertical-align: $middle;
+}
+
+.redes {
+    color: $fourColor;
+}
+
+.acount {
+    color: $fiveColor;
+ }
+
+.box-model {
+    margin: $largeMargin;
+    padding: $largePadding;
+    border: $twopx $solid $eightColor;
+    text-align: $text-align-justify;
+}
+
+.alineación {
+    display: $display-flex;
+    flex-direction: $row;
+    flex-flow: $row;
+    flex-wrap: $wrap;
+    align-items: $center;
+    justify-content: $center;
+}
+
+    .alineación figcaption {
+        color: $sixColor;
+    }
+
+body {
+    background-image: $body-bg;
+    width: $body-width;
+    height: $body-height;
+    object-fit: $body-ob-fit;
+    object-position: $body-ob-pos;
+    background-repeat: $body-repeat;
+    background-attachment: $body-attachment;
+    background-size: $body-size;
+}
+
+#header {
+    margin: $indMargin;
+    width: $largeWidth;
+    font-family: $mainFont; 
+    font-weight: $fontLight;
+}
+
+ul {
+    list-style: $list-style;
+}
+
+.grid-container {
+    display: $display-grid;
+    grid-template-columns: $px; /* 2 columnas */
+    grid-template-rows: $px; /* 2 filas */
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
+    /* Centrar items */
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
+}
+
+.grid-container2 {
+    display: $display-grid;
+    grid-template-columns: $threepx; /* 1 columna */
+    grid-template-rows: $grid-template-rows; /*1 fila */
+    grid-column-gap: $twopx;
+    grid-row-gap: $twopx;
+    /* Centrar items */
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: $center;
+    align-items: $center;
+    justify-content: $center;
+    align-content: $center;
+    column-gap: $twopx;
+    row-gap: $twopx;
+}
+
+/* Estilos para dispositivos móviles */
+
+@media screen and (max-width: 400px) {
+
+    .ordenbody {
+        background-image: $body-bg;
+        background-size: $body-poss;
+        background-repeat: $body-repeat;
+        background-position: $twocenter;
+        background-attachment: $body-attachment;
+    }
+
+    .containter {
+        display: $display-block;
+        display: $display-flex;
+        justify-content: $center;
+        align-items: $center;
+        width: $threepx;
+        height: $largeHeight;
+        margin: $zeroauto;
+        flex-direction: $column;
+        align-items: $align-items-flex-start;
+    }
+
+    .titulo {
+        justify-content: $center;
+        text-align: $center;
+        font-weight: $fontAlmostLight;
+    }
+
+    .union {
+        flex-direction: $column;
+        flex-wrap: $wrap;
+    }
+    
+    .frases {
+        font-size: $fontMini;
+        font-weight: $fontLight;
+    }
+
+    .peliculas{
+        font-size: $fontMini;
+        font-weight: $fontLight;
+    }
+
+    .frases2 {
+        font-size: $fontMini;
+        font-weight: $fontLight;
+    }
+
+    .containerblogs {
+        max-width: $width-height;
+        max-height: $width-height;
+        border: $border;
+        margin-left: $margin-left-right;
+        margin-right: $margin-left-right;
+        background-size: $background-size;
+        width: $widthLarge;
+        height: $heightMedium;
+      }
+}
+
+/* Estilos para dispositivos desktop */
+
+@media screen and (max-width: 1500px) {
+    .ordenbody {
+        background-image: $body-bg;
+        background-size: $body-size;
+        justify-content: $center;
+    }
+
+    .frases {
+        font-weight: $fontLight;
+        font-size: $fontMinitwo;
+    }
+
+    .frases2 {
+        font-weight: $fontLight;
+        float: $left;
+        clear: $left;
+        font-size: $fontMinitwo;
+    }
+    .peliculas {
+        font-weight: $fontLight;
+        float: $left;
+        clear: $left;
+        font-size: $fontMinitwo;
+    }
+
+    .contenedorfrases {
+        display: $display-flex;
+        flex-direction: $column;
+    }
+
+    .union {
+        display: $display-flex;
+        justify-content: $left;
+    }
+}
