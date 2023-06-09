@@ -259,7 +259,6 @@ ul {
     display: inline-block;
     line-height: 1.6;
     max-width: 100%;
-    overflow-x: hidden;
     -o-object-fit: cover;
        object-fit: cover;
     width: 350px;
@@ -384,4 +383,4 @@ ul {
   background-color: lightgray;
   padding: 5px;
   display: block;
-}/*# sourceMappingURL=Frases_de_los_vengadores.css.map */
+}/*# sourceMappingURL=frases_de_los_vengadores.css.map */

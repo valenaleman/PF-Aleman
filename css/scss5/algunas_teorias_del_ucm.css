@@ -33,6 +33,11 @@ h2 {
   color: cornflowerblue;
 }
 
+.ucm {
+  display: flex;
+  justify-content: center;
+}
+
 .caja-1 {
   background-color: grey;
   max-width: 500px;
@@ -164,4 +169,4 @@ h2 {
   background-color: lightgray;
   padding: 5px;
   display: block;
-}/*# sourceMappingURL=Algunas_teorías_del_UCM.css.map */
+}/*# sourceMappingURL=algunas_teorias_del_ucm.css.map */

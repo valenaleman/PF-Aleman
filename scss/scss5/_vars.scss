@@ -40,11 +40,12 @@ $cover: cover;
 $body-poss:contain;
 $body-ob-pos: bottom;
 $body-attachment: fixed;
-$justify-content-center: center;
+$center: center;
 $margin: 0 auto;
 $width-height: 150%;
 $margin-left-right: calc((100% - 550px) / 2);
 $twocenter: center center;
+$flex: flex;
 
 // custom
 $body-repeat: no-repeat;
@@ -79,6 +80,11 @@ h2 {
 .título {
     font-weight: $fontMedium;
     color: $fourColor;
+}
+
+.ucm {
+  display: $flex;
+  justify-content: $center;
 }
 
 .caja-1 {
@@ -172,6 +178,6 @@ h2 {
   body {
       background-image: $body-bg;
       background-size: $cover;
-      justify-content: $justify-content-center;
+      justify-content: $center;
   }
 }
