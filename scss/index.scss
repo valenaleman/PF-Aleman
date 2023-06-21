@@ -97,11 +97,11 @@ $root-trans-dur: 0.3s;
     vertical-align: $middle;
 }
 
-.video {
+.center {
     display: $display-flex;
-    align-items: $left;
-    justify-content: $left;
+    justify-content: $center;
 }
+
 
 .gray-box {
     background-color: $secondaryColor;

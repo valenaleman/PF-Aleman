@@ -84,10 +84,9 @@
   vertical-align: middle;
 }
 
-.video {
+.center {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  justify-content: center;
 }
 
 .gray-box {
