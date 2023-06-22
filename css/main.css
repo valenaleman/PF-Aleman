@@ -906,11 +906,6 @@ h2 {
   color: cornflowerblue;
 }
 
-.ucm {
-  display: flex;
-  justify-content: center;
-}
-
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 400px) {
   .teoriasbody {
