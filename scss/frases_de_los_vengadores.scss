@@ -52,6 +52,7 @@ $margin: 0 auto;
 $width-height: 150%;
 $margin-left-right: calc((100% - 550px) / 2);
 $twocenter: center center;
+$twopx: 200px;
 
 // size
 $largePadding: 10px 0 10px 5px;
@@ -98,6 +99,10 @@ body {
     background-repeat: $body-repeat;
     background-attachment: $fixed;
     background-size: $cover;
+}
+
+.espaciofrase {
+    margin-bottom: $threepx;
 }
 
 .titulofrases {
