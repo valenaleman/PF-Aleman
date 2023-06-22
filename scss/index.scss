@@ -49,8 +49,6 @@ $left: left;
 $cero: 0;
 $px: 20px;
 $margin: 0 auto;
-$px2: 450px;
-$px3: 20px;
 
 // custom
 $body-repeat: no-repeat;
@@ -79,14 +77,6 @@ $root-trans-dur: 0.3s;
     font-family: $mainFont;
     font-weight: $fontBold;
     color: $mainColor;
-}
-
-.espacio {
-    margin-bottom: $px2;
-}
-
-.espacio2 {
-    margin-bottom: $px3;
 }
 
 .linksmenu {
