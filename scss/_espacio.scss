@@ -1,7 +1,6 @@
 // position
 $pxtwo: 450px;
 $pxthree: 20px;
-$bottompx: 850px;
 $pxfour: 40px;
 
 .espacio {
@@ -13,5 +12,5 @@ $pxfour: 40px;
 }
 
 .espaciocaja {
-    margin-bottom: $bottompx;
+    margin-bottom: $pxthree;
 }

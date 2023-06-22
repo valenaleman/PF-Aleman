@@ -229,67 +229,6 @@ ul {
     justify-content: $left;
 }
 
-.caja-1 {
-    background-color: $elevenColor;
-    max-width: $largeWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $box-sizing-border-box;
-    margin-top: $threepx;
-  }
-
-  .caja-2 {
-    clear: $both;
-    background-color: $elevenColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $box-sizing-border-box;
-    margin-top: $threepx;
-  }
-
-  .caja-3 {
-    clear: $both;
-    background-color: $elevenColor;
-    max-width: $largeWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $box-sizing-border-box;
-    margin-top: $threepx;
-  }
-
-  .caja-4 {
-    clear: $both;
-    background-color: $elevenColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $box-sizing-border-box;
-    margin-top: $threepx;
-  }
-
-  .caja-5 {
-    clear: $both;
-    background-color: $elevenColor;
-    max-width: $mediumWidth;
-    margin: $littleMargin;
-    float: $left;
-    padding: $twopx;
-    box-sizing: $box-sizing-border-box;
-    margin-top: $threepx
-  }
-
-  .gray-box {
-    background-color: $twelveColor;
-    padding: $threepx;
-    margin: $margin;
-    width: $width;
-  }
-
 /* Estilos para dispositivos móviles */
 
 @media screen and (max-width: 400px) {

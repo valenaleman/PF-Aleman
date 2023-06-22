@@ -264,67 +264,6 @@ ul {
   justify-content: left;
 }
 
-.caja-1 {
-  background-color: grey;
-  max-width: 700px;
-  margin: 0;
-  float: left;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-top: 20px;
-}
-
-.caja-2 {
-  clear: both;
-  background-color: grey;
-  max-width: 600px;
-  margin: 0;
-  float: left;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-top: 20px;
-}
-
-.caja-3 {
-  clear: both;
-  background-color: grey;
-  max-width: 700px;
-  margin: 0;
-  float: left;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-top: 20px;
-}
-
-.caja-4 {
-  clear: both;
-  background-color: grey;
-  max-width: 600px;
-  margin: 0;
-  float: left;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-top: 20px;
-}
-
-.caja-5 {
-  clear: both;
-  background-color: grey;
-  max-width: 600px;
-  margin: 0;
-  float: left;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-top: 20px;
-}
-
-.gray-box {
-  background-color: gray;
-  padding: 20px;
-  margin: 0 auto;
-  width: 100%;
-}
-
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 400px) {
   body {
@@ -967,7 +906,6 @@ h6 {
   background-color: grey;
   max-width: 700px;
   margin: 0;
-  float: left;
   padding: 10px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -978,7 +916,6 @@ h6 {
   background-color: grey;
   max-width: 600px;
   margin: 0;
-  float: left;
   padding: 10px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -989,7 +926,6 @@ h6 {
   background-color: grey;
   max-width: 700px;
   margin: 0;
-  float: left;
   padding: 10px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -1000,7 +936,6 @@ h6 {
   background-color: grey;
   max-width: 600px;
   margin: 0;
-  float: left;
   padding: 10px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -1011,7 +946,6 @@ h6 {
   background-color: grey;
   max-width: 600px;
   margin: 0;
-  float: left;
   padding: 10px;
   box-sizing: border-box;
   margin-top: 20px;
@@ -1033,7 +967,7 @@ h6 {
 }
 
 .espaciocaja {
-  margin-bottom: 850px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
