@@ -41,6 +41,7 @@ $twopx: 10px;
 $center: center;
 $grid-template-rows: 1px;
 $left: left;
+$flex-start: flex-start;
 $zeroauto: 0 auto;
 $column: column;
 $width-height: 150%;
@@ -285,7 +286,8 @@ ul {
 
     .frases2 {
         font-weight: $fontLight;
-        float: $left;
+        display: $display-flex;
+        justify-content: $align-items-flex-start;
         clear: $left;
         font-size: $fontMinitwo;
     }

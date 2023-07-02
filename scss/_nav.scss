@@ -17,9 +17,10 @@ $mediumPadding: 10px 15px;
 $smallPading: 5px;
 
 // position
+$display-flex: flex;
 $display-block: block;
 $display-none: none;
-$left: left;
+$align-items-flex-start: flex-start;
 $absolute: absolute;
 $width: 140px;
 
@@ -41,7 +42,8 @@ $width: 140px;
 }
 
 .nav > li {
-    float: $left;
+    display: $display-flex;
+    justify-content: $align-items-flex-start;
 }
 
 .nav li ul {
@@ -58,7 +60,7 @@ $width: 140px;
     background-color: $fourColor;
     color: $secondaryColor;
     padding: $smallPading;
-    display: block;
+    display: $display-block;
 }
 
 .nav li ul li:nth-child(3) a.momentos-link {

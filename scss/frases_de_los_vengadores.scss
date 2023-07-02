@@ -36,6 +36,7 @@ $row: row;
 $center: center;
 $auto: auto;
 $left: left;
+$align-items-flex-start: flex-start;
 $miniMargin: 0 auto;
 $mini-line-height: 1.6;
 $column: column;
@@ -356,7 +357,8 @@ ul {
     }
     
     .frases {
-        float: $left;
+        display: $display-flex;
+        justify-content: $align-items-flex-start;
         clear: $left;
         font-size: $fontMinitwo;
     }

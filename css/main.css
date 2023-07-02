@@ -18,7 +18,8 @@
 }
 
 .nav > li {
-  float: left;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .nav li ul {
@@ -375,7 +376,8 @@ ul {
     flex-direction: column;
   }
   .frases {
-    float: left;
+    display: flex;
+    justify-content: flex-start;
     clear: left;
     font-size: 15px;
   }
@@ -800,7 +802,8 @@ ul {
   }
   .frases2 {
     font-weight: 100;
-    float: left;
+    display: flex;
+    justify-content: flex-start;
     clear: left;
     font-size: 15px;
   }
